@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Grid {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  grid-template-columns: 2fr, 1fr, 1fr;
+}
+
+header {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+a {
+  color: #635bff;
+}
+
+a:hover {
+  color: #140036;
+}
+
+.Contact_button {
+  background-color: #635bff;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.Contact_button:hover {
+  color: white;
+  background-color: #140036;
+}
+
+svg {
+  display: inline;
+  position: relative;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.links {
+  display: inline;
+}
+
+svg:hover {
+  translate: 10px;
+}
