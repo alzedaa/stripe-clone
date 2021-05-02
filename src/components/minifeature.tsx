@@ -1,13 +1,3 @@
-const feature = [
-  {
-    title: "Ready to get started?",
-    content:
-      "Explore Stripe Payments, or create an account instantly to get started. You can also contact us to design a custom package for your business",
-    button: "Contact Sales",
-    ContactSalesButton: "Contact Sales2",
-  },
-];
-
 const miniFeature = [
   {
     title: "In-Person Payments",
@@ -23,12 +13,8 @@ const miniFeature = [
   },
 ];
 
-export function getFeature() {
-  return feature;
-}
-
-export default feature;
-
 export function getMiniFeature() {
   return miniFeature;
 }
+
+export default miniFeature;
